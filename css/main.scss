@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body
+{
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 
+{
+    margin: 0;
+}
+.nav-colored{background-color: white !important;
+    .nav-link{
+        color: #336699 !important;
+    }
+    .navbar-brand
+    {
+        color: #336699 !important;
+    }
+    .navbar-toggler-icon i
+    {
+        color: #707070 !important;
+    }
+    .navbar-toggler
+    {
+        border: 1px solid #707070 !important;
+    }
+}
+.nav-transparent{background-color: transparent !important;
+    .nav-link{
+        color: white !important;
+    }
+    .navbar-brand 
+    {
+        color: white !important;
+    }
+}
+
+.navbar 
+{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.navbar-brand 
+{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.navbar-brand:hover
+{
+    color: white;
+}
+.nav-link 
+{
+    font-size: 22px;
+    color: white;
+    margin: 0px 15px;
+}
+.nav-link:hover
+{
+    background-color: #336699;
+    padding: 8px 30px;
+    color: white;
+}
+.nav-btn a
+{
+    background-color: #336699;
+    color: white;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+.navbar-toggler
+{
+    border: 1px solid white;
+}
+.navbar-toggler-icon i 
+{
+    color: white;
+    padding-top: 4px;
+}
+.hero-sec
+{
+    background-image: url("../images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    padding-top: 15%;
+}
+.hero-content 
+{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.hero-content h2
+{
+    font-size: 56px;
+    text-shadow: 2px 2px 2px #333;
+}
+.hero-content h4 
+{
+    text-shadow: 2px 2px 2px #333;
+    font-size: 24px;
+    padding: 0px 315px;
+    margin-top: 25px;
+}
+.hero-content button
+{
+    color: #FFF;
+    cursor: pointer;
+    background: #336699;
+    padding: 15px 40px;
+    transition: all 0.3s ease;
+    margin-top: 165px;
+    border: none;
+}
+.whatwedo 
+{
+    padding: 80px 120px 40px 120px;
+}
+.whatwedo-content h1
+{
+    font-size: 40px;
+    color: #336699;
+    font-weight: normal;
+}
+.whatwedo-content p 
+{
+    font-size: 19.2px;
+    color: #707070;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+.whatwedo-points
+{
+    display: flex;
+    padding: 0 132px;
+}
+.whatwedo-points .description
+{
+    display: flex;
+    width: 608px;
+}
+.description .icons i
+{
+    font-size: 40px;
+    color: #336699;
+}
+.description .explanation
+{
+    padding: 0 40px;
+}
+.description .explanation h2
+{
+    color: #3377aa;
+    font-size: 35px;
+    font-weight: normal;
+}
+.description .explanation p
+{
+    font-size: 19.2px;
+    color: #707070;
+    line-height: 1.9;
+}
+.mb
+{
+    margin-bottom: 40px;
+}
+.description .explanation a
+{
+    color: #FFF;
+    cursor: pointer;
+    background: #336699;
+    padding: 14px 30px;
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.mt 
+{
+    margin-bottom: 100px;
+}
+.testimonial-bg 
+{
+    background-image: url("../images/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 0;
+}
+.testimonials-mt 
+{
+    margin: 40px 0;
+}
+.testimonial-bg .content
+{
+    text-align: center;
+}
+.testimonial-bg .content h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    margin: 0 0 24px;
+}
+.testimonial-bg p 
+{
+    font-size: 14.4px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: white;
+    padding: 0 210px;
+    line-height: 1.9;
+}
+.testimonials
+{
+    color: white;
+}
+.testimonials img
+{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.testimonials blockquote 
+{
+    font-size: 16.2px;
+    margin-top: 20px;
+    float: left;
+    line-height: 1.9;
+}
+.testimonials figcaption
+{
+    font-size: 16px;
+    float: right;
+    font-style: italic;
+}
+.carousel-indicators
+{
+    left: 0;
+    top: auto;
+    bottom: -100px;
+}
+.carousel-indicators li 
+{
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+}
+.gallery
+{
+    padding-top: 80px;
+    margin-bottom: 180px;
+}
+.gallery .content h2
+{
+    font-size: 41.6px;
+    font-weight: normal;
+    margin: 0 0 24px;
+    color: #3377aa;
+    text-align: center;
+}
+.gallery .content p 
+{
+    color: #707070;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 210px;
+    text-align: center;
+}
+.gallery .carousel-inner 
+{
+    margin-top: 70px;
+}
+.gallery .carousel-indicators li 
+{
+    background-color: #3377aa;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+}
+.gallery-slide
+{
+    background-color: #4a3753;
+}
+.gallery-slide img 
+{
+    opacity: 1;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+    width: 100%;
+}
+.gallery-slide:hover img
+{
+    opacity: 0.4;
+}
+.contact 
+{
+    background-image: url("../images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 40px;
+   
+}
+.contact .content
+{
+    text-align: center;
+}
+.contact .content h2 
+{
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    margin: 0 0 24px;
+}
+.contact .content p
+{
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: white;
+    padding: 0 170px;
+    line-height: 1.9;
+    margin: 0 0 50px;
+}
+.contact-detail form input
+{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;
+    padding: 12px;
+    margin: 10px;
+    width: 450px;
+}
+.contact-detail form input::placeholder 
+{
+    color: white;
+    font-size: 19px;
+}
+.contact-detail form textarea
+{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;
+    padding: 20px;
+    margin: 10px;
+    width: 450px;
+    height: 250px;
+}
+.contact-detail form textarea::placeholder 
+{
+    color: white;
+    font-size: 19px;
+}
+.contact-detail form button
+{
+    background-color: #336699;
+    color: white;
+    font-size: 17px;
+    padding: 12px 80px;
+    margin: 20px 20px 20px 10px;
+    border: none;
+    border-radius: 4px;
+    width: 50%;
+}
+.contact .social
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact .social div
+{
+    margin-bottom: 60px;
+}
+.contact .social a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.contact .social a i 
+{
+    font-size: 40px;
+}
+.contact .social a span
+{
+    margin: 0 20px;
+}
+.contact .copyright 
+{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 150px;
+}
+footer
+{
+    background-color: white;
+    color: white;
+    margin: 40px;
+}
+
+
+// login form
+
+.bg-login 
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/banner-bg.jpg");
+}
+.login-form
+{
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #336699;
+}
+.login-form form input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 350px;
+    margin: 20px;
+    outline: none;
+}
+.login-form form input::placeholder
+{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+.login-form form label
+{
+    float: right;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login-form .logo
+{
+    text-align: center;
+    font-size: 41px;
+}
+.login-form .logo a 
+{
+    color: white;
+    text-decoration: none;
+}
+.login-form .submit
+{
+    text-align: center;
+    margin-top: 70px;
+}
+.login-form .submit a
+{
+    text-decoration: none;
+    color: #707070;
+    background-color: white;
+    border-radius: 22px;
+    padding: 8px 35px;
+}
+.login-form .signup 
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.login-form .signup a
+{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.login-form .icons
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.login-form .icons a
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px 5px;
+}
+
+// signup form
+.box 
+{
+    margin: 15px;
+    box-shadow: 0px 0px 12px 0px #336699;
+}
+.bg img
+{
+    width: 100%;
+}
+.signup-form 
+{
+    padding: 50px 0px;
+}
+.signup-form form div
+{
+    display:table-caption;
+}
+
+// .signup-bg .bg
+// {
+//     margin: 4px;
+// }
+// .signup-bg .bg img 
+// {
+//     height: 99vh;
+//     width: 720px;
+//     border-radius: 5px;
+//     box-shadow: 0px 0px 12px 0px #336699;
+// }
+.signup-form 
+{
+    margin: 4px;
+    padding: 60px 15px;
+}
+.signup-form h3 
+{
+    font-size: 32px;
+    color: #336699;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+.signup-form form div
+{
+    margin-top: 15px;
+}
+.signup-form form .name, .password, .email, .gender, .mob, .status
+{
+    margin: 0px;
+}
+.signup-form form .name, .password, .email, .mob, label
+{
+   color: #336699;
+   font-size: 19px;
+   margin: 0;
+}
+.signup-form form .name, .password, .email, .mob, input
+{
+    border: none;
+    border-bottom: 1px solid #3377aa;
+    outline: none;
+}
+.signup-form form .confirm
+{
+    margin-top: 30px;
+}
+.signup-form form .confirm a
+{
+    background-color: #336699;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+hr {
+    border: 1px solid cornflowerblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+
+// media queries
+
+@media (min-width: 600px) and (max-width: 768px) 
+{
+    .navbar 
+    {
+        padding: 5px 60px;
+    }
+    .hero-content h2 
+    {
+        font-size: 32px;
+    }
+    .hero-content h4 
+    {
+        padding: 0 185px;
+    }
+    .hero-content button 
+    {
+        margin-top: 75px;
+    }
+    .whatwedo 
+    {
+        padding: 50px 40px;
+    }
+    .whatwedo-content h1,   .testimonial-bg .content h2,
+    .gallery .content h2, .contact .content h2
+    {
+        font-size: 30px;
+    }
+    .whatwedo-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .whatwedo-points
+    {
+        padding: 0 50px;
+    }
+    .description .icons i 
+    {
+        font-size: 30px;
+    }
+    .description .explanation h2 
+    {
+        font-size: 28px;
+    }
+    .description .explanation {
+        padding: 0 11px;
+    }
+    .description .explanation p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .testimonials blockquote, .testimonials figcaption, .hero-content h4,
+    .testimonial-bg p, .gallery .content p, .contact .content p, .contact .copyright 
+    {
+        font-size: 14px;
+    }
+    .mt 
+    {
+        margin-top: 25px;
+    }
+    .testimonial-bg p 
+    {
+        padding: 0 85px;
+    }
+    .gallery .content p
+    {
+        padding: 0 90px;
+        line-height: 1.6;
+    }
+    .contact .content p 
+    {
+        padding: 0 80px;
+    }
+    .contact .social a  
+    {
+        font-size: 16px;
+    }
+    .contact .social a i 
+    {
+        font-size: 35px;
+    }
+    .contact-detail form input::placeholder
+    {
+        font-size: 16px;
+    }
+}
+
+// @media (min-width: 320px) and (max-width: 480px) 
+// {
+    
+// }
